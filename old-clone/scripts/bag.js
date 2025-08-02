@@ -80,7 +80,8 @@ function removeFromBag(itemId) {
 }
 
 function generateItemHTML(item) {
-  return `<div class="bag-item-container">
+  return 
+  `<div class="bag-item-container">
     <div class="item-left-part">
       <img class="bag-item-img" src="../${item.image}">
     </div>
